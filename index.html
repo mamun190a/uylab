@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <!-- tailwind link -->
+    
+<link href="https://cdn.jsdelivr.net/npm/daisyui@3.7.3/dist/full.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://kit.fontawesome.com/f38c870733.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <header>
+    <!-- navber part -->
+    <div class="mx-32">
+        <div class="navbar bg-base-100">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <label tabindex="0" class="btn btn-ghost lg:hidden">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                </label>
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                  <li><a>হোম</a></li>
+                  <li>
+                    <a>কোর্স সমূহ</a>
+                    <ul class="p-2">
+                      <li><a>যোগাযোগ</a></li>
+                      <li><a>Submenu 2</a></li>
+                    </ul>
+                  </li>
+                  <li><a>Item 3</a></li>
+                </ul>
+              </div>
+              <img src="./pic/logo.png" alt="">
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1">
+                <li><a>হোম</a></li>
+                <li tabindex="0">
+                  <details>
+                    <summary>কোর্স সমূহ</summary>
+                    <ul class="p-2">
+                        <li><a>ওয়েব ডিজাইন এন্ড ডেভেলপমেন্ট</a></li>
+                        <li><a>গ্রাফিক্স ডিজাইন</a></li>
+                        <li><a>ডিজিটাল মার্কেটিং</a></li>
+                    </ul>
+                  </details>
+                </li>
+               
+                <li><a> যোগাযোগ</a></li>
+                <li tabindex="0">
+                    <details>
+                      <summary> 
+                        এডমিশন</summary>
+                      <ul class="p-2">
+                        <li><a>এডমিশন ফর্ম</a></li>
+                        <li><a>সার্টিফিকেট ভেরিফাই</a></li>
+                        <li><a>রেজাল্ট</a></li>
+                      </ul>
+                    </details>
+                  </li>
+                <li><a> রেজাল্ট</a></li>
+              </ul>
+            </div>
+                <div class="navbar-end gap-10">
+                <a class="btn btn-primary">সাইন ইন</a>
+                <a class="btn btn-accent">সাইন আপ</a>
+                </div>
+                
+               
+            </div>
+    </div>
+    <div class="text-center relative">
+      <input class="h-12 w-1/2 rounded-full	" style="border: 1px solid black;" type="text" placeholder="কোর্স অনুসন্ধান করুন...">
+      <div class="text-3xl absolute top-2 right-[410px]"><i class="fa-solid fa-magnifying-glass"></i></div>
+    </div>
+    
+   </header>
+
+   <!-- main part -->
+   <main>
+      <section>
+        <div class="hero min-h-screen bg-base-200">
+          <div class="hero-content flex-col lg:flex-row-reverse">
+            <img src="./pic/banner_img.png" class="max-w-sm rounded-lg shadow-2xl" />
+            <div>
+              <h1 class="text-5xl font-bold">আমরাই সেরা
+                আইটি ট্রেনিং ইনস্টিটিউট</h1>
+              <p class="py-6">আন্তর্জাতিক মানের কোর্স মডিউল এবং দক্ষ মেন্টরের সহায়তায় প্রফেশনাল স্কিল শিখুন; নিজেকে তৈরী করুন !</p>
+              <button class="btn btn-primary">Get Started</button>
+            </div>
+          </div>
+        </div>
+      </section>
+   </main>
+
+   <!-- footer part -->
+   <footer>
+
+   </footer>
+</body>
+</html>
